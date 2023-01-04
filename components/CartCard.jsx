@@ -6,7 +6,7 @@ import {FaTrashAlt} from 'react-icons/fa'
 const CartCard = () => {
   return(
     <div className = {styles.container}>
-      <Image className = {styles.productimg} src="/img/coffee.jpg" alt="" width="50" height="50"/>
+      <Image className = {styles.productimg} src="/img/coffee.png" alt="" width="50" height="50"/>
       <div className ={styles.productlist}>
         <h1 className={styles.title}>Ice Blended Cappucino</h1>
         <span className={styles.price}>RM7.90</span>

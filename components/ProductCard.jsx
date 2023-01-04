@@ -6,7 +6,7 @@ import {BsCartPlus} from 'react-icons/bs'
 const ProductCard = () => {
   return (
     <div className = {styles.container}>
-      <Image className = {styles.productimg} src="/img/coffee.jpg" alt="" width="90" height="90"/>
+      <Image className = {styles.productimg} src="/img/coffee.png" alt="" width="90" height="90"/>
       <div className ={styles.productlist}>
         <h1 className={styles.title}>Ice Blended Cappucino</h1>
         <p className={styles.desc}>
