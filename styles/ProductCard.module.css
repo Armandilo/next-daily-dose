@@ -39,3 +39,15 @@
 .productimg{
     border-radius: 10px;
 }
+
+.button{
+    float:right;
+    color:#181818;
+    background-color:transparent;
+    border:none;
+}
+
+.button:active{
+    color:#FFB703;
+}
+

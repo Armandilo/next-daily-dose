@@ -1,0 +1,96 @@
+.container{
+    padding: 40px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.itemname{
+    position:flex;
+    padding-right: 170px;
+    font-family :'Roboto', 'sans-serif';
+    font-weight: 100;
+    font-size: 13px;
+    
+
+}
+
+.quantity{
+    font-family :'Roboto', 'sans-serif';
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.lists{
+    padding-left: 25px;
+    width:100%;
+}
+
+.strawcontainer{
+    position:absolute;
+    display: flex;
+    left:0;
+    top: 380px;
+    padding-left: 20px;
+
+} 
+
+.strawLabel{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 12px;
+    padding-left: 10px;
+    
+}
+
+.listcontainer{
+    font-family: 'Roboto', 'sans-serif';
+    font-size:14px;
+    font-weight: 100;
+    padding-top: 90px;
+}
+
+.total{
+    padding-right: 169px;
+}
+
+.tax{
+    padding-right: 185px;
+}
+
+.subtotal{
+    padding-right: 140px;
+    font-weight: bold;
+}
+
+.subtotalprice{
+    font-weight: bold;
+}
+
+.buttoncontainer{
+    position:sticky;
+    padding-top:60px;
+    display:flex;
+    justify-content: center;
+   
+}
+
+.button{
+    height:100px;
+    width:360px;
+    border:0;
+    border-radius: 20px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #FFB703;
+}
