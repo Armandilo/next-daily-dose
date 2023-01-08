@@ -13,6 +13,8 @@
 
 
 .productlist{
+    
+    width: 100%;
     padding:10px;
 }
 
@@ -33,7 +35,7 @@
 
 
 .productimg{
-    box-sizing: border-box;
+   
     border-radius: 10px;
 }
 
@@ -58,7 +60,7 @@
 }
 .quan{
     float:right;
-    width: 100%;
+
     padding-right:20px;
     
 }
