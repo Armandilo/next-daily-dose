@@ -2,13 +2,15 @@
     width:100%;
     display:flex;
     flex-direction:row;
-    padding: 20px 20px;
+    padding: 20px 0px;
+    padding-left: 20px;
     align-items: center;
-    justify-content:flex-start;
     background-color: #F3F3F3;
     height:70px;
    
 }
+
+
 
 .productlist{
     padding:10px;
@@ -31,19 +33,20 @@
 
 
 .productimg{
+    box-sizing: border-box;
     border-radius: 10px;
 }
 
 .delContainer{
-    position: relative;
-    right:-34px;
     display:flex;
     justify-content: center;
     width: 60px;
     height:70px;
+
 }
 .button{
     display:block;
+    position: flex;
     color:#181818;
     background-color:#B92727;
     width: 60px;
@@ -54,9 +57,14 @@
     color:#e8e4d9;
 }
 .quan{
-    padding-left: 40px;
+    float:right;
+    width: 100%;
+    padding-right:20px;
+    
 }
 .inputquan{
+    float:right;
+
     width:30px;
     height:30px;
     color:black;

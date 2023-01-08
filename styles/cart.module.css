@@ -16,8 +16,8 @@
 }
 
 .itemname{
-    position:flex;
-    padding-right: 170px;
+    float:left;
+
     font-family :'Roboto', 'sans-serif';
     font-weight: 100;
     font-size: 13px;
@@ -26,6 +26,8 @@
 }
 
 .quantity{
+    float:right;
+    padding-right:70px;
     font-family :'Roboto', 'sans-serif';
     font-weight: 100;
     font-size: 13px;

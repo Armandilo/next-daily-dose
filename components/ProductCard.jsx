@@ -3,6 +3,7 @@ import styles from "../styles/ProductCard.module.css"
 import Image from 'next/image'
 import {BsCartPlus} from 'react-icons/bs'
 
+
 const ProductCard = () => {
   return (
     <div className = {styles.container}>
