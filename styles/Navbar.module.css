@@ -27,6 +27,10 @@
     list-style: none;
 }
 
+.list li:hover{
+    color:black;
+}
+
 .listitem{
     margin:10px;
     font-family: 'Bebas Neue', cursive;
@@ -37,6 +41,10 @@
 .cart{
     position: relative;
     filter: invert(100%) sepia(99%) saturate(28%) hue-rotate(122deg) brightness(105%) contrast(100%);
+}
+
+.cart:hover{
+    filter: invert(0%) sepia(99%) saturate(28%) hue-rotate(122deg) brightness(105%) contrast(100%);
 }
 
 .counter{
