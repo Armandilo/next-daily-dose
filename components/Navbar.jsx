@@ -11,9 +11,9 @@ const Navbar = () => {
       <div className={styles.item}>
         </div>
         <ul className = {styles.list}>
-          <li className = {styles.listitem}><a href="javascript:window.location='/';">Home</a></li>
-          <li className = {styles.listitem}>Order</li>
-          <li className = {styles.listitem}>Contact</li>
+          <li className = {styles.listitem}><a href="javascript:window.location='/';">ALL</a></li>
+          <li className = {styles.listitem}>Beverage</li>
+          <li className = {styles.listitem}>Food</li>
         </ul>
       </div>
       <div className={styles.item}>
