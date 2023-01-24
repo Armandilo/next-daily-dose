@@ -3,11 +3,13 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import ProductList from '../components/ProductList'
+import Navbar from '../components/Navbar'
+import axios from 'axios'
 
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home({productList}) {
   return (
     <>
     
@@ -18,8 +20,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
-      <ProductList/>
+     
+      <ProductList productList={productList}/>
   
     </>
   )
+}
+
+export const getServerSideProps = async () =>{
+  const res = await axios.get("http://localhost:3000/api/product");
+  return{
+    props:{
+      productList: res.data,
+    }
+  }
 }

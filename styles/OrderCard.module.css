@@ -1,0 +1,83 @@
+.container{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    padding: 20px 0px;
+    padding-left: 20px;
+    align-items: center;
+    background-color: #F3F3F3;
+    height:70px;
+   
+}
+
+
+
+.productlist{
+    
+    width: 100%;
+    padding:10px;
+}
+
+.title{
+    font-size:13px;
+    font-weight: bold;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+.price{
+    font-family: 'Roboto', sans-serif;
+    font-size:13px;
+   
+    color:black;
+}
+
+
+.productimg{
+   
+    border-radius: 10px;
+}
+
+.delContainer{
+    display:flex;
+    justify-content: center;
+    width: 60px;
+    height:70px;
+
+}
+.button{
+    display:block;
+    position: flex;
+    color:#181818;
+    background-color:#B92727;
+    width: 60px;
+    border:none
+}
+
+.button:active{
+    color:#e8e4d9;
+}
+.quan{
+    float:right;
+    color:black;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 14px;
+    padding-right:40px;
+    
+}
+.inputquan{
+    float:right;
+
+    width:30px;
+    height:30px;
+    color:black;
+    border-radius: 5px;
+    border-width: 0.5px;
+    text-align: center;
+    background-color: white;
+}
+
+.status{
+    padding-right: 30px;
+}

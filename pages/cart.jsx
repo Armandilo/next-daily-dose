@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "../styles/cart.module.css"
 import CartCard from '../components/CartCard'
+import Navbar from '../components/Navbar'
 
 const cart = () => {
   return (
