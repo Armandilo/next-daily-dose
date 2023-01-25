@@ -34,31 +34,17 @@
 }
 
 .lists{
+
     padding-left: 25px;
     width:100%;
 }
 
-.strawcontainer{
-    position:absolute;
-    display: flex;
-    left:0;
-    top: 380px;
-    padding-left: 20px;
-
-} 
-
-.strawLabel{
-    font-family: 'Roboto', 'sans-serif';
-    font-size: 12px;
-    padding-left: 10px;
-    
-}
 
 .listcontainer{
     font-family: 'Roboto', 'sans-serif';
     font-size:14px;
     font-weight: 100;
-    padding-top: 90px;
+    padding-top: 60px;
 }
 
 .total{
@@ -79,20 +65,10 @@
 }
 
 .buttoncontainer{
-    position:sticky;
+    width: 1000px;
     padding-top:60px;
     display:flex;
     justify-content: center;
    
 }
 
-.button{
-    height:100px;
-    width:360px;
-    border:0;
-    border-radius: 20px;
-    font-family: 'Roboto', 'sans-serif';
-    font-weight: bold;
-    font-size: 30px;
-    background-color: #FFB703;
-}

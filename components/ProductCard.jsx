@@ -8,8 +8,11 @@ import { useState } from 'react'
 
 
 const ProductCard = ({products}) => {
- 
+  const dispatch = useDispatch();
 
+  const handleAddToCart = (products) =>{
+    dispatch(addProduct(products))
+  }
 
   return (
     <div className = {styles.container}>
@@ -19,12 +22,13 @@ const ProductCard = ({products}) => {
         <p className={styles.desc}>
           {products.size}
         </p>
-        <span className={styles.price}>RM{products.price}</span>
+        <span className={styles.price}>RM{products.price.toFixed(2)}</span>
       </div>
-      <button className={styles.button}><BsCartPlus size={32}/></button>
+      <button className={styles.button} onClick ={()=> handleAddToCart(products)}><BsCartPlus size={32}/></button>
     </div>
   )
 };
+
 
 
 
