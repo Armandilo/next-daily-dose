@@ -3,8 +3,8 @@ import styles from "../styles/Navbar.module.css"
 import Image from 'next/image'
 import { useSelector } from 'react-redux'
 import Link from 'next/link'
+
 const Navbar = () => {
- 
   const quantity = useSelector(state=>state.cart.quantity);
   const handleCart = event => {
     if(quantity===0)
@@ -21,9 +21,7 @@ const Navbar = () => {
       <div className={styles.item}>
         </div>
         <ul className = {styles.list}>
-          <li className = {styles.listitem}><Link href="/" passHref>All</Link></li>
-          <li className = {styles.listitem}>Beverage</li>
-          <li className = {styles.listitem}>Food</li>
+          <li className = {styles.listitem}><Link href="/" passHref>View Menu</Link></li>
         </ul>
       </div>
       <Link onClick={handleCart} href ="/cart" passHref>

@@ -1,0 +1,29 @@
+.container {
+    height: 60px;
+    padding: 0px 0px;
+    background-color:#FFB703;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+}
+
+.media {
+    padding: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+}
+
+.copyright {
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+}
