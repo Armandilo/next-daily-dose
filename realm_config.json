@@ -4,5 +4,6 @@
     "name": "next-daily-dose",
     "location": "SG",
     "provider_region": "azure-southeastasia",
-    "deployment_model": "LOCAL"
+    "deployment_model": "LOCAL",
+    "environment": "production"
 }
