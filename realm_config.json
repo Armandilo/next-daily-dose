@@ -1,0 +1,8 @@
+{
+    "app_id": "next-daily-dose-ljpny",
+    "config_version": 20210101,
+    "name": "next-daily-dose",
+    "location": "SG",
+    "provider_region": "azure-southeastasia",
+    "deployment_model": "LOCAL"
+}
