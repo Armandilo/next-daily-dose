@@ -6,6 +6,13 @@ import Link from 'next/link'
 const Navbar = () => {
  
   const quantity = useSelector(state=>state.cart.quantity);
+  const handleCart = event => {
+    if(quantity===0)
+    {
+      event.preventDefault();
+      alert("No Items In Cart!");
+    };
+  }
   return (
     <div className={styles.container}>
       <div className={styles.item}>
@@ -19,7 +26,7 @@ const Navbar = () => {
           <li className = {styles.listitem}>Food</li>
         </ul>
       </div>
-      <Link href ="/cart" passHref>
+      <Link onClick={handleCart} href ="/cart" passHref>
       <div className={styles.item}>
         <div className ={styles.cart}>
          <Image src ="/img/shopping-cart.png" alt="" width="30" height="30"/>

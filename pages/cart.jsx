@@ -17,7 +17,8 @@ import { FaCommentsDollar } from 'react-icons/fa'
 
 const cart = () => {
   const cart = useSelector(state=>state.cart);
-  const amount =cart.total;
+
+  const amount = cart.total;
   const currency= "MYR";
   const style = {layout:"vertical", height:55 }
   const dispatch = useDispatch();

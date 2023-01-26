@@ -16,15 +16,18 @@ const ProductCard = ({products}) => {
 
   return (
     <div className = {styles.container}>
-      <Image className = {styles.productimg} src= {products.image} alt="" width="90" height="90"/>
-      <div className ={styles.productlist}>
-        <h1 className={styles.title}>{products.item_name}</h1>
-        <p className={styles.desc}>
-          {products.size}
-        </p>
-        <span className={styles.price}>RM{products.price.toFixed(2)}</span>
-      </div>
-      <button className={styles.button} onClick ={()=> handleAddToCart(products)}><BsCartPlus size={32}/></button>
+     
+        <Image className = {styles.productimg} src= {products.image} alt="" width="90" height="90"/>
+        <div className ={styles.productlist}>
+          <h1 className={styles.title}>{products.item_name}</h1>
+          <p className={styles.desc}>
+            {products.size}
+          </p>
+          <span className={styles.price}>RM{products.price.toFixed(2)}</span>
+        </div>
+        <button className={styles.button} onClick ={()=> handleAddToCart(products)}><BsCartPlus size={32}/></button>
+   
+      
     </div>
   )
 };

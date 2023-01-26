@@ -1,0 +1,28 @@
+.container{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    padding: 20px 0px;
+    padding-left: 20px;
+    align-items: center;
+    background-color: #F3F3F3;
+ 
+   
+}
+
+.ordercontainer{
+    padding-right: 1150px;
+    color:black;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: light;
+    font-size:12px;
+
+}
+
+@media screen and (max-width: 600px){
+    .ordercontainer{
+        padding-right:0px;
+    
+    }
+ }
+ 

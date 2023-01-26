@@ -16,8 +16,9 @@
 }
 
 .itemname{
-  
-    padding-right: 1220px;
+    
+    padding-left: 15px;
+    padding-right: 1290px;
     font-family :'Roboto', 'sans-serif';
     font-weight: 100;
     font-size: 13px;
@@ -93,6 +94,6 @@
 
 @media screen and (max-width: 600px){
    .itemname{
-        padding-right:155px;
+        padding-right:235px;
    }
 }
