@@ -8,10 +8,9 @@ const ProductList = ({productList}) => {
         <h1 className={styles.title}></h1>
         <div className={styles.wrapper}>
 
-          {productList.map((products)=>(
+          {productList.map((products)=>
             <ProductCard key={products._id} products={products}/>
-          ))}
-            
+          )}
             
         </div>
     </div>

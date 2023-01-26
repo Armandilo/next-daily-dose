@@ -14,14 +14,13 @@
     align-items: center;
     justify-content: center;
     position: sticky;
-    top: 20px;
+    top: 15px;
     font-family: 'Bebas Neue', cursive;
-    font-size:30px; 
+    font-size:35px; 
 }
 
 .list{
     padding: 0;
-   
     display: flex;
     align-items: center;
     list-style: none;
@@ -34,8 +33,7 @@
 .listitem{
     margin:10px;
     font-family: 'Bebas Neue', cursive;
-    font-size:20px;
-
+    font-size:25px;
 }
 
 .cart{
@@ -62,6 +60,4 @@
    justify-content: center;
    font-weight: bold;
    color:#FFB703;
-
-   
 }
