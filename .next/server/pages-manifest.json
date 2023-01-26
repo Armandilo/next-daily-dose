@@ -2,5 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+<<<<<<< HEAD
   "/": "pages/index.js"
+=======
+  "/orders/[id]": "pages/orders/[id].js"
+>>>>>>> b48c0a136945198bba76ebc9d34d5954917a0c41
 }

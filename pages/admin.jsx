@@ -22,8 +22,9 @@ const admin = ({orders}) => {
   );
 };
 
-export const getServerSideProps = async () =>{
-  const res = await axios.get("http://localhost:3000/api/order");
+export const getServerSideProps = async (ctx) =>{
+  const hostname = ctx.req.headers.host;
+  const res = await axios.get("http://"+ hostname + "/api/order");
   return{
     props:{
       orders: res.data,

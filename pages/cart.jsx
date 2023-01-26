@@ -12,6 +12,7 @@ import axios from 'axios';
 import {useRouter} from "next/router";
 import {reset} from '../redux/cartSlice';
 import { FaCommentsDollar } from 'react-icons/fa'
+import { Context } from 'react'
 
 
 
@@ -26,7 +27,8 @@ const cart = () => {
   const router = useRouter();
   const createOrder = async (data) =>{
     try{
-      const res = await axios.post("http://localhost:3000/api/order", data)
+     
+      const res = await axios.post("/api/order", data)
       if(res.status === 201){
         dispatch(reset());
         router.push(`/orders/${res.data._id}`)
