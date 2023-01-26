@@ -1,6 +1,8 @@
 import axios from 'axios';
 import React from 'react';
 import styles from '../../styles/recipt.module.css';
+import absoluteUrl from 'next-absolute-url';
+
 
 const Order = ({order}) => {
   return (
@@ -27,8 +29,10 @@ const Order = ({order}) => {
   );
 };
 
-export const getServerSideProps = async ({params}) => {
-    const res = await axios.get(`http://localhost:3000/api/order/${params.id}`);
+export const getServerSideProps = async (ctx) => {
+    const id = ctx.params.id;
+    const hostname = ctx.req.headers.host;
+    const res = await axios.get("http://" + hostname + "/api/order/" + id);
     return{
         props: { order: res.data },
     };
